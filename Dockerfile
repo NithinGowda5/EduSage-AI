@@ -19,7 +19,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application files
 COPY . .
 
-# Hugging Face Spaces mounts persistent storage at /data.
+# Persistent disk storage is mounted at /data.
 # We ensure the app has permissions to write to it.
 RUN mkdir -p /data && chmod 777 /data
 

@@ -324,6 +324,6 @@ app.mount("/", StaticFiles(directory="static", html=True), name="static")
 if __name__ == "__main__":
     import uvicorn
     port = int(os.environ.get("PORT", 8000))
-    # Disable reload on production/Hugging Face container
-    is_prod = bool(os.environ.get("SPACE_ID"))
+    # Disable reload on production/Render/Hugging Face containers
+    is_prod = bool(os.environ.get("SPACE_ID") or os.environ.get("RENDER"))
     uvicorn.run("server:app", host="0.0.0.0", port=port, reload=not is_prod)

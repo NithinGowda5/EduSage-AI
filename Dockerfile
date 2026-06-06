@@ -19,10 +19,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application files
 COPY . .
 
-# Persistent disk storage is mounted at /data.
-# We ensure the app has permissions to write to it.
-RUN mkdir -p /data && chmod 777 /data
-
 # Expose port
 EXPOSE 7860
 

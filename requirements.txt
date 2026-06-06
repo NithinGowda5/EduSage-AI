@@ -13,3 +13,7 @@ fastapi
 uvicorn
 python-multipart
 pysqlite3-binary
+langchain-chroma
+langchain-classic
+langchain-text-splitters
+requests

@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+.venv/
+ENV/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local configuration and secret keys
+.env
+.env.local
+.env.development.local
+.env.manifest
+.env.staging
+.env.production
+
+# Dynamic uploads and local FAISS/BM25 vector database data
+data/
+static/uploads/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db

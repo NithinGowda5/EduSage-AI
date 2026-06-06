@@ -1,0 +1,14 @@
+streamlit
+langchain
+langchain-community
+langchain-google-genai
+google-generativeai
+langchain-cohere
+chromadb
+rank_bm25
+pypdf
+python-docx
+python-dotenv
+fastapi
+uvicorn
+python-multipart

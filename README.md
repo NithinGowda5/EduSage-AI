@@ -21,7 +21,11 @@ EduSage AI is a premium, responsive multi-document RAG (Retrieval-Augmented Gene
 ## Architecture
 
 1. **Extraction**: Hierarchical PDF processing and text extraction.
+
 2. **Indexing**: Split-strategy chunking indexed across semantic vector stores and lexical databases.
+
 3. **Retrieval**: Parallel semantic & keyword search merged with Reciprocal Rank Fusion (RRF).
+
 4. **Refinement**: Dense reranking to maximize context density.
+
 5. **Synthesis**: LLM generation with strict citation verification rules.
